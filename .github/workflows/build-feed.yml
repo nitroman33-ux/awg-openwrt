@@ -10,11 +10,18 @@ on:
       targets:
         description: "Targets (comma-separated, optional)"
         required: false
-        type: string
-      subtargets:
-        description: "Subtargets (comma-separated, optional)"
-        required: false
-        type: string
+          subtargets:
+    description: "Subtargets (comma-separated, optional)"
+    required: false
+    type: string
+  kernel_version:
+    description: "Kernel version / hash (optional)"
+    required: false
+    type: string
+
+    type: string
+
+        
 
 permissions:
   contents: write
